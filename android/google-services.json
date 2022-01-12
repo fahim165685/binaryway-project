@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "462173444243",
+    "project_id": "the-binari-way",
+    "storage_bucket": "the-binari-way.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462173444243:android:805bf26d8aa2ce1376d566",
+        "android_client_info": {
+          "package_name": "com.example.binaryway.binary_way"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462173444243-onp6agil3ff2s5p9qgbe4o7llh84tgak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS2eKeDWB0mKS1U64Pkh5kiHf0OW6ytFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462173444243-onp6agil3ff2s5p9qgbe4o7llh84tgak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
