@@ -1,5 +1,6 @@
 import 'package:binary_way/Screens/Login/logine_screen.dart';
 import 'package:binary_way/Screens/Wellcome/wellcome_screen.dart';
+import 'package:binary_way/Screens/sing_up/sing_up_screen.dart';
 import 'package:binary_way/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter APP',
       theme: ThemeData(
+        //useMaterial3: true,
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: Colors.white,
       ),
@@ -32,6 +34,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/wellcome':(context)=>wellcomeScreen(),
         "/login":(context)=>LoginScreen(),
+        "/sing_up":(context)=>SingUPScreen(),
+
 
 
 

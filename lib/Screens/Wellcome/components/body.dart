@@ -16,7 +16,7 @@ class Body extends StatelessWidget {
           mainAxisAlignment:MainAxisAlignment.center ,
           children: <Widget>[
             Text(
-              'Wellcome To Binary Way',
+              'Wellcome To Shebapolly',
               style:TextStyle (fontWeight: FontWeight.bold
               ),
             ),
@@ -32,12 +32,11 @@ class Body extends StatelessWidget {
             ),
 
             RoundedButton(
-              text: "LOGIN",
+              text: "CANCEL",
               color: kPrimaryLightColor,
               textColor: Colors.black,
               press: () {},
             ),
-
           ],
         ),
       ),

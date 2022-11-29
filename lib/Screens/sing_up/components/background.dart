@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Background extends StatelessWidget {
+class SU_Background extends StatelessWidget {
   final Widget child;
-  const Background({
-    Key? key,
-    required this.child,
-  }) : super(key: key);
+  const SU_Background({Key? key,required this.child})  : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
+    Size size= MediaQuery.of(context).size;
     return Container(
       height: size.height,
       width: double.infinity,
